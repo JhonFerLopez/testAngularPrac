@@ -1,0 +1,11 @@
+<form action="" class="d-flex">
+    <input 
+        #inputSearch
+        class="form-control me-2" 
+        autofocus
+        type="search" 
+        placeholder="Busca tu personaje"
+        aria-label="Search"
+        (keyup)="onSearch(inputSearch.value)"
+    >
+</form>
